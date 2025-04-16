@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наш магазин</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .product {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .product img {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+        }
+        .product .info {
+            flex: 1;
+            margin-left: 10px;
+        }
+        .product button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Наш магазин</h1>
+    <div class="product">
+        <img src="https://via.placeholder.com/50" alt="product">
+        <div class="info">
+            <h3>Товар 1</h3>
+            <p>Описание товара 1</p>
+        </div>
+        <button>Добавить в корзину</button>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/50" alt="product">
+        <div class="info">
+            <h3>Товар 2</h3>
+            <p>Описание товара 2</p>
+        </div>
+        <button>Добавить в корзину</button>
+    </div>
+</body>
+</html>
